@@ -1,11 +1,15 @@
 # Documentation Downloader for LLMs
 
-A tool that converts documentation sites into markdown format, optimized for use with Large Language Models (LLMs) like ChatGPT, Claude, and LLaMA.
+> 📢 **Announcement:** [docingest](https://github.com/Amal-David/docingest) is now open source! It's a comprehensive documentation ingestion engine that supports **Gitbook, ReadTheDocs, Mintlify, Docusaurus**, and many more providers — a full successor to this tool. ⭐ [Star it on GitHub](https://github.com/Amal-David/docingest) if you find it useful.
+
+A tool that converts documentation sites into markdown format, optimized for use with coding agents and AI assistants like Claude Code, Codex, Hermes, Pi, and others.
+
+> ℹ️ **Looking for broader support?** Check out [docingest](https://github.com/Amal-David/docingest) (also hosted at [docingest.com](https://docingest.com)) for a more comprehensive engine supporting ReadTheDocs, Mintlify, Docusaurus, and others. This tool may still be preferable for Gitbook-specific sites.
 
 ## Purpose
 
-- Download technical documentation for training custom LLMs
-- Create knowledge bases for ChatGPT, Claude, and other AI assistants
+- Download technical documentation for use with coding agents
+- Create knowledge bases for Claude Code, Codex, Hermes, Pi, and other AI assistants
 - Feed documentation into context windows of AI chatbots
 - Generate markdown files optimized for LLM processing
 
@@ -82,10 +86,11 @@ poetry run python app.py
    - Download the content as a markdown file
 
 5. Use the downloaded markdown with:
-   - ChatGPT (paste into conversation)
-   - Claude (upload as a file)
-   - Custom LLaMA models (include in training data)
-   - Any other LLM that accepts markdown input
+   - Claude Code (drop into your project or paste into context)
+   - Codex (use as reference material)
+   - Hermes (include in your knowledge base)
+   - Pi (paste into conversation)
+   - Any other LLM or coding agent that accepts markdown input
 
 ## Testing
 
